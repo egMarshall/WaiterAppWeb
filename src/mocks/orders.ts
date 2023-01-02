@@ -1,4 +1,6 @@
-const orders: Order[] = [
+import { Order } from "../Types/Order";
+
+export const ordersMock: Order[] = [
   {
     _id: '6372e48cbcd195b0d3d0f7f3',
     table: '123',
